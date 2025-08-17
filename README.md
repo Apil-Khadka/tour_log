@@ -32,7 +32,6 @@ Build the application for production:
 # pnpm
 pnpm build
 
-
 ```
 
 Locally preview production build:
