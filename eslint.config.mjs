@@ -1,7 +1,7 @@
 import antfu from "@antfu/eslint-config";
 
 // @ts-check
-import withNuxt from "./.nuxt/eslint.config.mjs"
+import withNuxt from "./.nuxt/eslint.config.mjs";
 
 export default withNuxt(
   // Your custom configs here
@@ -15,6 +15,9 @@ export default withNuxt(
       semi: true,
       quotes: "double",
     },
+    ignores: [
+      ".pnpm-store/**",
+    ],
     rules: {
       "ts/consistent-type-definitions": ["error", "type"],
       "no-console": "warn",
