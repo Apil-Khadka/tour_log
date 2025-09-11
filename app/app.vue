@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold text-blue-500 underline">
+    <h1 class=" font-bold text-blue-500 text-5xl underline">
       Hello world!
     </h1>
     <button class="btn btn-secondary justify-center">
