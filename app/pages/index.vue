@@ -6,7 +6,7 @@
           Travel Log
         </h1>
         <p class="py-6">
-          Keep track of your travels and adventures with Travel Log.
+          Keep track of your travels and adventures with this Travel Log.
         </p>
         <button class="btn btn-accent">
           Sign In With GitHub
